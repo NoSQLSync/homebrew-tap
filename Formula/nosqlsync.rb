@@ -3,7 +3,6 @@
 class Nosqlsync < Formula
   desc "Migrate MongoDB to PostgreSQL with a schema you'd actually design"
   homepage "https://github.com/NoSQLSync/nosqlsync"
-  version "0.1.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
