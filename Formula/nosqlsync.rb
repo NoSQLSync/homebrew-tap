@@ -7,23 +7,23 @@ class Nosqlsync < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/NoSQLSync/nosqlsync/releases/download/v0.1.2/nosqlsync-v0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "91c1e4903b8dd3baf9428f3847e379dbb5a3d0e03c54471c3a9ba92b2d328406"
+      url "https://github.com/NoSQLSync/nosqlsync/releases/download/v0.1.3/nosqlsync-v0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "2f21e7ff15ea69f6fc7ddba06300acc18685804c6cf012ecd2c7cc1c6d3f6901"
     end
     on_intel do
-      url "https://github.com/NoSQLSync/nosqlsync/releases/download/v0.1.2/nosqlsync-v0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "89c928e563779385fd07122a60c4ea14676f188632835674203eb1419b098622"
+      url "https://github.com/NoSQLSync/nosqlsync/releases/download/v0.1.3/nosqlsync-v0.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "5edd9e195d5a531f054521c9ea54fee929441757f07e1b9d92f914e3ad79033a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/NoSQLSync/nosqlsync/releases/download/v0.1.2/nosqlsync-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "223881468760c619d14bb179d4cb3d32316b14a27f33a7cba9bf5820e09050c5"
+      url "https://github.com/NoSQLSync/nosqlsync/releases/download/v0.1.3/nosqlsync-v0.1.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1e296b6acb82812f72270cd936664c991545ff4a942bb4b9721a861e456a3c8f"
     end
     on_intel do
-      url "https://github.com/NoSQLSync/nosqlsync/releases/download/v0.1.2/nosqlsync-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "81cfb9451746208003afc41c5d3b950ab4904f1f4e565694922908efd0a01fb8"
+      url "https://github.com/NoSQLSync/nosqlsync/releases/download/v0.1.3/nosqlsync-v0.1.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6daa95c7127df244ff43c5ef3cfd60b80c51da0895546697fa5e4883da240342"
     end
   end
 
